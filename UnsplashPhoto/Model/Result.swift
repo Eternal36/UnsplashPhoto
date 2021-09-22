@@ -7,17 +7,16 @@
 
 import Foundation
 
-struct Results: Codable {
+struct Results: Decodable {
     var total: Int
+    var total_pages: Int
     var results: [Result]
 }
 
-struct Result: Codable {
-    var id: String
-    var description: String
-    var urls: [URLs]
+struct Result: Decodable {
+    var urls: URLs
 }
 
-struct URLs: Codable {
-    var full: String
+struct URLs: Decodable {
+    var regular: String
 }

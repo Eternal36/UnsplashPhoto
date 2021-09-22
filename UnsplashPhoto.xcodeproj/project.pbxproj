@@ -72,6 +72,7 @@
 				ECF7252C26FA2014003545C7 /* Controllers */,
 				ECF7252E26FA202B003545C7 /* View */,
 				ECF7252F26FA220F003545C7 /* Networking */,
+				ECF7254426FB63A7003545C7 /* Model */,
 				ECF7251D26FA1C2E003545C7 /* Assets.xcassets */,
 				ECF7251F26FA1C2E003545C7 /* LaunchScreen.storyboard */,
 				ECF7252226FA1C2E003545C7 /* Info.plist */,
@@ -101,9 +102,16 @@
 			isa = PBXGroup;
 			children = (
 				ECF7253826FA289E003545C7 /* NetworkService.swift */,
-				ECF7253B26FA2A75003545C7 /* Result.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		ECF7254426FB63A7003545C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7253B26FA2A75003545C7 /* Result.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
